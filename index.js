@@ -3,7 +3,6 @@ const API = "https://dog.ceo/api/breeds/image/random";
 const butt = document.querySelector(".random")
 const img = document.querySelector(".img")
 
-
 butt.addEventListener('click', () => {
     fetch(API)
     .then(res =>{
